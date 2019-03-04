@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/sbol_frame1" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame2" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame3" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame4" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame5" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame6" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame7" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame8" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame9" android:duration="80"/>
+    <item android:drawable="@drawable/sbol_frame10" android:duration="100"/>
+    <item android:drawable="@drawable/sbol_frame11" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame12" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame13" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame14" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame15" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame16" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame17" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame18" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame19" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame20" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame21" android:duration="120"/>
+    <item android:drawable="@drawable/sbol_frame22" android:duration="120"/>
+    <item android:drawable="@drawable/sbol_frame23" android:duration="120"/>
+    <item android:drawable="@drawable/sbol_frame24" android:duration="120"/>
+    <item android:drawable="@drawable/sbol_frame25" android:duration="600"/>
+    <item android:drawable="@drawable/sbol_frame26" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame27" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame28" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame29" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame30" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame31" android:duration="50"/>
+    <item android:drawable="@drawable/sbol_frame32" android:duration="600"/>
+
+</animation-list>
