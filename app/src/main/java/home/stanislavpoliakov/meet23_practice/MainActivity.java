@@ -41,5 +41,15 @@ public class MainActivity extends AppCompatActivity {
                     .add(fragment, "animator XML animation")
                     .commitNow();
         });
+
+        Button interButton = findViewById(R.id.interButton);
+        interButton.setOnClickListener((v) -> {
+            startActivity(InterpolatorsActivity.getIntent(MainActivity.this));
+        });
+
+        Button transitionButton = findViewById(R.id.transitionButton);
+        transitionButton.setOnClickListener((v) -> {
+            startActivity(TransitionActivity.newIntent(MainActivity.this));
+        });
     }
 }

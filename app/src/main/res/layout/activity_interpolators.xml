@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterpolatorsActivity">
+
+    <ImageView
+        android:id="@+id/catView"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/elephantView"
+        app:layout_constraintStart_toStartOf="@+id/elephantView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/elephantView"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/goatView"
+        app:layout_constraintStart_toStartOf="@+id/goatView"
+        app:layout_constraintTop_toBottomOf="@+id/catView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/goatView"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/owlView"
+        app:layout_constraintStart_toStartOf="@+id/owlView"
+        app:layout_constraintTop_toBottomOf="@+id/elephantView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/owlView"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/pigView"
+        app:layout_constraintStart_toStartOf="@+id/pigView"
+        app:layout_constraintTop_toBottomOf="@+id/goatView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/pigView"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/owlView"
+        app:srcCompat="@mipmap/ic_launcher" />
+</android.support.constraint.ConstraintLayout>
