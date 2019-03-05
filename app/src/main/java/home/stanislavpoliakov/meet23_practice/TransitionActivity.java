@@ -21,7 +21,7 @@ import android.view.animation.BounceInterpolator;
 import android.widget.Button;
 
 public class TransitionActivity extends AppCompatActivity {
-    private View redSquare, greenSquare, blueSquare;
+    //private View redSquare, greenSquare, blueSquare;
     private int count = 1;
 
     @Override
